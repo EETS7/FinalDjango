@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Venta de Boletos y servicios de vuelo.</title>
+</head>
+<body>
+    <p> </p>
+    <p>Ventas de Boletos de Aerolinea.</p>
+    <p>Por favor llene los campos que desea. </p>
+    <p> </p>
+    <form action="/listo/" method="GET">
+        <p>-------------------------------------------Tipo de Vuelo:-------------------------------------------- </p>
+        <p> <input type="radio" name="vclase" value=1> - Primera Clase ----------  <input type="radio" name="vclase" value=2> - Segunda Clase ----------  <input type="radio" name="vclase" value=3> - Tercera Clase ---------- </p>
+        <p>.</p>
+        <p>----------------------------------¿Desea algun servicio extra?------------------------------------</p>
+        <p>--------------------------------------------<input type="radio" name="vservicio" value=1> - SI -------------------------------------------------- </p>
+        <p>--------------------------------------------<input type="radio" name="vservicio" value=2> - NO ------------------------------------------------- </p>
+        <p>.</p>
+        <p> Comida </p>
+        <p> --------------------  1era Clase --50-- -------------------------  2da  Clase --40-- -------------------------  3era Clase --25--</p>
+        <p> ------------ <input type="text" name="c1"> ------------ <input type="text" name="c2"> ------------ <input type="text" name="c3"> ------------ </p>
+        
+        <p> Bebida </p>
+        <p> --------------------  1era Clase --35-- -------------------------  2da  Clase --25-- -------------------------  3era Clase --10--</p>
+        <p> ------------ <input type="text" name="b1"> ------------ <input type="text" name="b2"> ------------ <input type="text" name="b3"> ------------ </p>
+        
+        <p> Pelicula </p>
+        <p> --------------------  1era Clase --70-- -------------------------  2da  Clase --55-- -------------------------  3era Clase --25--</p>
+        <p> ------------ <input type="text" name="p1"> ------------ <input type="text" name="p2"> ------------ <input type="text" name="p3"> ------------ </p>
+        <p> <input type="submit" value="Comprar"> </p>
+    </form>
+    <form action="/borrado/" method="GET">
+        <p> <input type="submit" value="borrar"></p>
+    </form>
+</body>
+</html>
